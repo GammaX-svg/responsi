@@ -1,0 +1,193 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+h1,
+h2,
+h4,
+h5,
+h6 {
+    margin-bottom: 20px;
+    padding: 0;
+}
+h3{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    box-shadow: 5px 10px #888888 v;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: relative;
+    z-index: 5;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.navbar-menu {
+    font-size: 14pt;
+    position: absolute;
+    right: 10%;
+    top: 5px;
+    right: 5px;
+}
+
+.brand {
+    text-decoration: none;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+
+.menu {
+    text-decoration: none;
+    margin-left: 30px;
+    color: white;
+    font-size: 12pt;
+    padding-bottom: 5px;
+}
+
+.menu:hover {
+    border-bottom: 3px solid white;
+}
+
+#menu-join {
+    border: 2px solid white;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+}
+
+#menu-join:hover {
+    background: white;
+    color: black;
+}
+
+.jumbotron {
+    background-image: url(bitmap.png);
+    background-size: cover;
+    margin-top: -90px;
+    margin-bottom: 35px;
+    height: 400px;
+    color: white;
+    padding-top: 100px;
+    align-content: center;
+    text-align: center;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+}
+
+.jumbotron::after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron h1 {
+    margin-top: 100px;
+    font-weight: 110;
+    font-size: 60px;
+}
+
+.jumbotron h1 span {
+    font-weight: bold;
+}
+
+.button-display {
+    
+    text-decoration: none;
+    color: white;
+    background: -webkit-linear-gradient(to right, #5B86E5, #36D1DC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#994327,#cc5a34 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 15px 20px;
+    border-radius: 25px;
+  
+}
+
+
+/* Service */
+.service-container {
+    margin-top: 35px;    
+    margin-left: 0;
+    background: linear-gradient(to right,#994327,#cc5a34 ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0;
+    margin-right: 0;
+    position: relative;
+    z-index: 5;
+    
+}
+
+.service-body {
+    justify-content: center;
+    display: flex;
+    margin: 0px;s
+
+}
+
+
+.skill-body{
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+    background-image: url(bitmap.png);
+    background-size: 100% 100%;
+    background-position-y: 10px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.service-box {
+    font-size: 14px;
+    line-height: 1.5;
+    width: 550px;
+    padding: 20px 50px;
+    border: solid 1px gray;
+    margin: 50px 10px;
+    border-radius: 25px;
+    text-align: left;
+    
+    color: white;
+}
+
+.title {
+    font-size: 20px !important;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.btn {
+    font-size: 14px !important;
+    border: none;
+    align-content: center;
+    margin-top: 2px;
+    margin-left: 35% ;
+    position: relative;
+    background: transparent;
+    color: white;
+    border: solid 1px white;
+    padding: 10px 50px;
+    border-radius: 5px;
+    font-family: 'Alata', sans-serif;
+    cursor: pointer;
+}
+.end {
+    font-size: 12px;
+    padding: 14px 0;
+    color: white;
+    text-align: center;
+    background-color: #282627;
+
+}
